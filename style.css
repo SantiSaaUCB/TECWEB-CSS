@@ -1,0 +1,119 @@
+*{
+     box-sizing: border-box;
+     margin: 20px
+}
+html{
+     font-size: 5px;
+     text-align: center;
+}
+body{
+     margin: 50px;
+}
+.colores{
+     color: #00CFE2;
+     color: #00B0C0;
+     color: #00D8EA;
+     color: #00919E;
+     color: #00727C;
+     color: #00535A;
+     color: #00434B;
+}
+.forma1{
+     background-color: #00CFE2;
+     width: 50%;
+     height: 50%;
+     font-size: 30px;
+     font-weight: bolder;
+     padding: 125px 125px 125px 125px;
+     border-top: 20px solid #00535A;
+     border-right: 20px solid #00727C;
+     border-left: 20px solid #00727C;
+     border-bottom: 20px solid #00535A;
+     margin: 25px 20px 30px 12px;
+}
+.forma2{
+     background-color: #00B0C0;
+     width: 50%;
+     font-size: 30px;
+     height: 250px;
+     padding: 15px 15px 15px 15px;
+     color: white;
+}
+.forma3{
+     background-color: #00919E;
+     width: 90vw;
+     height: 40vh;
+     font-size: 50px;
+     padding: 15px 15px 15px 15px;
+}
+.spans{
+     padding: 50px 50px 50px 50px;
+}
+.span1{
+     background-color: #00CFE2;
+     color: white;
+     font-size: 10rem;
+     padding: 25px;
+     border: 15px solid #00919E;
+     margin: 50px;
+}
+.span2{
+     background-color: #00CFE2;
+     color: white;
+     font-size: 10rem;
+}
+.contenedor1{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-size: 32px;
+     background-color: #00CFE2;
+     padding: 25px;
+}
+.cont1-1{
+     background-color: #00CFE2; 
+     margin: 20px;
+     height: 150px;
+     width: 45%;
+     border: 20px solid #00535A;
+     display: inline-block;
+     font-size: 40px;
+}
+.cont1-2{
+     background-color: #00727C;
+     margin: 20px;
+     height: 150px;
+     width: 45%;
+     display: inline-block;
+     font-size: 40px;
+     padding: 50px 50px 50px 50px;
+     color: white;
+}
+.cont1-3{
+     background-color: #00535A;
+     margin: 10px; 
+     width: 300px;  
+     height: 150px;
+     display: inline-block;
+     font-size: 20px;
+     padding: 50px 50px 50px 50px;
+     color: white;
+}
+.contenedor2{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     font-size: 32px;
+     background-color: #00535A;
+     padding: 25px;
+}
+.cont2-1{
+     background-color: #00919E;
+     padding: 25px
+}
+.cont2-2{
+     background-color: #00CFE2;
+     padding: 25px
+}
